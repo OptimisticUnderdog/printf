@@ -1,0 +1,15 @@
+#ifndef MAIN_H
+#define MAIN_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdarg.h>
+#include <unistd.h>
+#include <limits.h>
+
+int _printf(const char *format, ...);
+int _put(char *c);
+int print_number(int n);
+int _bin(unsigned int b);
+int _other_print(char c, char p, char q);
+#endif
